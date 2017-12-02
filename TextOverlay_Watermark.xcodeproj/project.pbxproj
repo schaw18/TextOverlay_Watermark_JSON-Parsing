@@ -15,6 +15,8 @@
 		84B8CC341FD0D59B00F884BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC331FD0D59B00F884BA /* main.m */; };
 		84B8CC3E1FD0D59B00F884BA /* TextOverlay_WatermarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC3D1FD0D59B00F884BA /* TextOverlay_WatermarkTests.m */; };
 		84B8CC491FD0D59B00F884BA /* TextOverlay_WatermarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC481FD0D59B00F884BA /* TextOverlay_WatermarkUITests.m */; };
+		84B8CC571FD0DA5A00F884BA /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B8CC561FD0DA5A00F884BA /* sample.jpg */; };
+		84B8CC591FD1E27800F884BA /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B8CC581FD1E27800F884BA /* watermark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		84B8CC441FD0D59B00F884BA /* TextOverlay_WatermarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextOverlay_WatermarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B8CC481FD0D59B00F884BA /* TextOverlay_WatermarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextOverlay_WatermarkUITests.m; sourceTree = "<group>"; };
 		84B8CC4A1FD0D59B00F884BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B8CC561FD0DA5A00F884BA /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		84B8CC581FD1E27800F884BA /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		84B8CC231FD0D59B00F884BA /* TextOverlay_Watermark */ = {
 			isa = PBXGroup;
 			children = (
+				84B8CC561FD0DA5A00F884BA /* sample.jpg */,
+				84B8CC581FD1E27800F884BA /* watermark.png */,
 				84B8CC241FD0D59B00F884BA /* AppDelegate.h */,
 				84B8CC251FD0D59B00F884BA /* AppDelegate.m */,
 				84B8CC271FD0D59B00F884BA /* ViewController.h */,
@@ -241,6 +247,8 @@
 				84B8CC311FD0D59B00F884BA /* LaunchScreen.storyboard in Resources */,
 				84B8CC2E1FD0D59B00F884BA /* Assets.xcassets in Resources */,
 				84B8CC2C1FD0D59B00F884BA /* Main.storyboard in Resources */,
+				84B8CC591FD1E27800F884BA /* watermark.png in Resources */,
+				84B8CC571FD0DA5A00F884BA /* sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

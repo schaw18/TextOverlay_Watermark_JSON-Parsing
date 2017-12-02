@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    float firstX;
+    float firstY;
+}
+
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 
 @end
